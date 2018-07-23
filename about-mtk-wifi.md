@@ -8,8 +8,8 @@ If you already have a working OpenWrt/Lede workspace, this is recommended.
 ### 1. Install the feeds.
 Add the following line into "feeds.conf.default" (You will find it under the top dir of your workspace).
 
-	src-git mtk https://github.com/Nossiac/mtk-openwrt-feeds;lede-17.01
-
+	src-git mtk https://github.com/ylk951207/mtk-openwrt-feeds;openwrt-18.06
+	
 then execute:
 
 	scripts/feeds update -f mtk
